@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+  }
+  
+  header {
+    background-color: #333;
+    padding: 10px;
+    color: #fff;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  section {
+   
+    padding: 50px;
+    background-color: #ffc3c3;
+  }
+  
+  section h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .cta-button, .learn-more {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .cta-button:hover, .learn-more:hover {
+    background-color: #555;
+  }
+  
+  footer {
+    background-color: #333;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  /* Additional Styles */
+  .hero {
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .hero h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin-bottom: 50px;
+    color: #777;
+  }
+  
+  .hero .cta-button {
+    font-size: 18px;
+  }
+  
+  #about p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  #services ul {
+    list-style: disc;
+    margin-left: 20px;
+  }
+  
+  #services ul li {
+    margin-bottom: 10px;
+  }
+  
+  #case-studies, #testimonials {
+    background-color: #f7f7f7;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  #case-studies h2, #testimonials h2 {
+    color: #555;
+  }
+  
+  #contact p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  #contact .cta-button {
+    font-size: 18px;
+    margin-top: 20px;
+  }

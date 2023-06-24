@@ -1,0 +1,64 @@
+/* Add the following styles to your existing CSS file or create a new one */
+body{
+    background-color: bisque;
+}
+section#contact {
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  section#contact h2 {
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  section#contact .contact-info {
+    margin-bottom: 30px;
+    font-size: 18px;
+  }
+  
+  section#contact .contact-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+  section#contact .contact-details h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 20px;
+  }
+  
+  section#contact .email-address {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  
+  section#contact .social-links {
+    display: flex;
+    list-style: none;
+    margin-top: 10px;
+  }
+  
+  section#contact .social-links li {
+    margin: 0 5px;
+  }
+  
+  section#contact .social-links a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 20px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  section#contact .social-links a:hover {
+    background-color: #666;
+  }
+  
